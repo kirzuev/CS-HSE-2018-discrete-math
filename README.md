@@ -1,5 +1,3 @@
-# hw
-
 Homework for skipping a CS HSE Discrete Maths course.
 
 Program reads a boolean expression, print its CNF and use resolution method to say "yes" if formula is satisfiable or "no" if it is not.
