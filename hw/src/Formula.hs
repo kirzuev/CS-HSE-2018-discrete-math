@@ -7,7 +7,7 @@ data Formula = Variable String
              | Or Formula Formula
              | Implication Formula Formula
              | Equivalence Formula Formula
-             deriving (Eq)
+             deriving (Eq, Ord)
 
 instance Show Formula where
   show formula = case formula of
